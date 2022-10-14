@@ -3,12 +3,84 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-05</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src='js/d3.v6.1.1/d3.min.js'></script>
 </head>
 
 
 <body>
+    <h1>hw-05: Interactive Graph with D3</h1>
+
+    <div class="row">
+        <!-- Two columns to deal with the 60-40 split -->
+        <div class="col1">
+            <div id="scatter1"></div>
+
+            <div id="bar1"></div>
+        </div>
 
 
+
+        <div class="col2">
+            <div id="lastClicked"></div>
+            <!-- Two dropdown menus, one for each coordinate -->
+            <form>
+                <p>Select the x coordinate for the point you want to add:</p>
+                <select id="xSelect">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                </select>
+                <p>Select the y coordinate for the point you want to add:</p>
+                <select id="ySelect">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                  </select>
+                  <br>
+                  <br>
+                  <input id="inputButton" type="button" value="Add point">
+            </form>
+        </div>
+    </div>
+
+
+    <h2>Acknowledgements</h2>
+    <div>
+        <ul>
+            <li>https://d3js.org/</li>
+            <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+            <li>https://d3-graph-gallery.com/intro_d3js.html</li>
+            <li>https://www.fluidencodings.com/teaching-materials/cc-for-the-web/v1/page.php?pid=svg</li>
+            <li>https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event</li>
+            <li>https://www.w3schools.com/graphics/svg_intro.asp</li>
+            <li>https://www.w3schools.com/howto/howto_js_dropdown.asp</li>
+            <li>https://www.w3schools.com/js/js_this.asp</li>
+            <li>https://www.w3schools.com/js/</li>
+            <li>https://www.geeksforgeeks.org/html-svg-basics/?ref=lbp</li>
+            <li>https://www.geeksforgeeks.org/html-introduction/?ref=lbp</li>
+            <li>https://www.w3schools.com/css/default.asp</li>
+            <li>https://www.w3schools.com/html/default.asp</li>
+        </ul>
+    </div>
+
+
+    <script src='js/main.js'></script>
 </body>
 
 </html>

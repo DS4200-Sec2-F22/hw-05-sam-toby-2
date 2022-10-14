@@ -1,0 +1,68 @@
+* {
+    font-family: Arial;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col1{
+    width: 40%;
+    
+}
+
+.col2{
+    width: 60%;
+    
+}
+circle {
+    fill: aqua;
+    
+}
+
+circle:hover {
+    fill: orange;
+}
+
+svg {
+    margin: 100px;
+}
+
+line {
+    stroke: black;
+    stroke-width: 5;
+}
+
+.bord {
+    stroke: black;
+    stroke-width: 5;
+}
+
+rect {
+    fill: aqua;
+}
+
+rect:hover {
+    fill: orange;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: paleturquoise;
+    border:  solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 5px;
+  }
